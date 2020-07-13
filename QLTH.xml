@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="QLTH.xsl"?>
-<QLTH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:QLTH.xsd">
+<QLTH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QLTH.xsd">
     <DonHangNhap>
         <MaDHN>DHN001</MaDHN>
         <MaNCC>NCC001</MaNCC>
