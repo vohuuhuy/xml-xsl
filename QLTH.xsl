@@ -121,30 +121,6 @@
                         </TR>
                     </xsl:for-each>
                 </TABLE>
-                <H2 style="color:green; text-align:center ">QUẢN LÝ XUẤT</H2>
-                <TABLE style="margin: 20 auto; boder=1; collapse;" border="1">
-                    <TR>
-                        <TH>Mã Đơn Hàng Xuất</TH>
-                        <TH>Mã Khách Hàng</TH>
-                        <TH>Ngày Xuất</TH>
-                        <TH>Mã Hàng</TH>
-                        <TH>Số Lượng</TH>
-                        <TH>Hạn SD</TH>
-                        <TH>Giảm Giá</TH>
-                        <TH>Kiểu Giảm Giá</TH>
-                    </TR>
-                    <xsl:for-each select="QLTH/DonHangXuat | QLTH/Hang">
-                        <xsl:choose>
-                            <xsl:when test="MaDHX = 'DHX001'">
-                                <TD><xsl:value-of select="key('HangKey',MaH)/MaH"/></TD>
-                                <TD><xsl:value-of select="key('HangKey',MaH)/SoLuong"/></TD>
-                                <TD><xsl:value-of select="key('HangKey',MaH)/HanSuDung"/></TD>
-                            </xsl:when>
-                        </xsl:choose>
-                        <TR>
-                        </TR>
-                    </xsl:for-each>
-                </TABLE>
                 <H2 style="color:green; text-align:center ">Hàng Nhập Từ Nhà Cung Cấp <B>Thúy Hương</B></H2>
                 <TABLE style="margin: 20 auto; boder=1; collapse;" border="1">
                     <TR>
